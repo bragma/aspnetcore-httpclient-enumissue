@@ -1,5 +1,5 @@
 # aspnetcore-httpclient-enumissue
-A small project showing the problems with HttpClient and getting an array from an API controller
+A sample project showing the problems with HttpClient and getting an array from an API controller (see https://github.com/aspnet/Mvc/issues/4257)
 
 The project is just a standard ASP NET Core API project created from VS2015. An xUnit library project has been added for testing. The important files are: The [controller](https://github.com/bragma/aspnetcore-httpclient-enumissue/blob/master/src/EnumerableHttpClientFails/Controllers/ValuesController.cs) providing the enumerable results and the [tests](https://github.com/bragma/aspnetcore-httpclient-enumissue/blob/master/src/Tests/Tests.cs).
 
